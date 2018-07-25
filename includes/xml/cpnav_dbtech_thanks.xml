@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<navgroups product="dbtech_thanks">
+
+	<navgroup phrase="dbtech_thanks" permissions="canadminthanks" hr="true" displayorder="16">
+		
+		<navoption displayorder="1">
+			<phrase>dbtech_thanks_manage_buttons</phrase>
+			<link>thanks.php?do=button</link>
+		</navoption>
+		
+		<navoption displayorder="10">
+			<phrase>forum_manager</phrase>
+			<link>thanks.php?do=forum</link>
+		</navoption>
+		
+		<navoption displayorder="20">
+			<phrase>search</phrase>
+			<link>thanks.php?do=search</link>
+		</navoption>
+		
+		<navoption displayorder="8998">
+			<phrase>maintenance</phrase>
+			<link>thanks.php?do=maintenance</link>
+		</navoption>
+		
+		<navoption displayorder="8999">
+			<phrase>dbtech_thanks_repair_cache</phrase>
+			<link>thanks.php?do=repaircache</link>
+		</navoption>
+		
+		<!--
+		<navoption displayorder="9000">
+			<phrase>dbtech_thanks_permissions</phrase>
+			<link>thanks.php?do=permissions</link>
+		</navoption>
+		-->
+		
+		<navoption displayorder="9001">
+			<phrase>dbtech_thanks_settings</phrase>
+			<link>thanks.php?do=options</link>
+		</navoption>		
+		
+	</navgroup>
+	
+</navgroups>

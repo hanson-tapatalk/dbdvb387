@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hooks>
+
+	<hooktype type="dbtech_thanks_main">
+		<hook>dbtech_thanks_repaircache</hook>
+		
+		<hook>dbtech_thanks_maintenance</hook>		
+		
+		<hook>dbtech_thanks_buttondata_start</hook>
+		<hook>dbtech_thanks_buttondata_presave</hook>
+		<hook>dbtech_thanks_buttondata_postsave</hook>
+		<hook>dbtech_thanks_buttondata_delete</hook>
+	
+		<hook>dbtech_thanks_postsave</hook>
+	</hooktype>
+	
+	<hooktype type="dbtech_thanks_admin" admin="1">
+		<hook>dbtech_thanks_admin_forum_eachbutton</hook>
+	</hooktype>
+</hooks>

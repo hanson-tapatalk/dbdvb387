@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="dbtech_thanks">
+	<bitfielddefs>
+		<group name="nocache">
+			<group name="dbtech_thanks_integration">
+				<bitfield name="dbtech_thanks_quicklinks"		>1</bitfield>				
+				<bitfield name="dbtech_thanks_community"		>2</bitfield>				
+			</group>
+
+			<group name="dbtech_thanks_features">
+				<bitfield name="dbtech_thanks_thanks"			>1</bitfield>
+				<bitfield name="dbtech_thanks_like"				>2</bitfield>				
+			</group>
+			
+			<group name="dbtech_thanks_postbit">
+				<bitfield name="dbtech_thanks_thanks_given"		>1</bitfield>
+				<bitfield name="dbtech_thanks_thanks_received"	>2</bitfield>				
+				<bitfield name="dbtech_thanks_likes_given"		>4</bitfield>
+				<bitfield name="dbtech_thanks_likes_received"	>8</bitfield>				
+			</group>
+			
+			<group name="dbtech_thanks_mentionbbcode">
+				<bitfield name="dbtech_thanks_underline"		>1</bitfield>
+			</group>
+			
+			<group name="dbtech_thanks_disable_integration">
+				<bitfield name="dbtech_thanks_threads"			>64</bitfield>
+				<bitfield name="dbtech_thanks_socialgroup"		>4</bitfield>
+				<bitfield name="dbtech_thanks_usernote"			>8</bitfield>
+				<bitfield name="dbtech_thanks_visitormessage"	>16</bitfield>	
+				<!--  -->
+				<bitfield name="dbtech_thanks_dbgallery"		>2</bitfield>
+				<bitfield name="dbtech_thanks_dbreview"			>32</bitfield>
+			</group>
+			
+		</group>
+		
+		<group name="ugp">
+			<group name="dbtech_thankspermissions">
+				<bitfield name="canbypassreq"		group="dbtech_thanks_general_permissions"	phrase="dbtech_thanks_can_bypass_req"			>1</bitfield>
+			</group>
+		</group>
+		
+		<group name="misc">
+			<group name="dbtech_thanksadminperms">
+				<bitfield name="canadminthanks"			>1</bitfield>
+			</group>
+		</group>		
+	</bitfielddefs>
+</bitfields>
